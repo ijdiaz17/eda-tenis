@@ -17,6 +17,34 @@ El objetivo es **identificar patrones de rendimiento, dominio por superficie y e
 
 ---
 
+## 📂 Estructura del proyecto
+```
+eda-tenis/
+│
+├── data/                     # Archivos de datos (datasets CSV, imágenes, etc.)
+│   ├── atp_matches.csv
+│   ├── players.csv
+│   └── gs.jpg
+│
+├── notebooks/                # Jupyter Notebooks con el desarrollo del análisis
+│   ├── 01_exploracion.ipynb
+│   ├── 02_limpieza.ipynb
+│   └── 03_visualizaciones.ipynb
+│
+├── src/                      # Scripts de Python reutilizables (funciones auxiliares)
+│   ├── limpieza.py
+│   ├── analisis.py
+│   └── visualizaciones.py
+│
+├── outputs/                  # Gráficos, tablas y resultados generados
+│   └── resumen_final.png
+│
+├── README.md                 # Descripción general del proyecto
+└── requirements.txt          # Dependencias del entorno de Python
+```
+
+---
+
 ## Datasets
 
 **URL 1 - KAGGLE**  
@@ -48,34 +76,6 @@ https://www.kaggle.com/datasets/dissfya/atp-tennis-2000-2023daily-pull
 ## Conclusión
 El análisis confirma que el **Big 3 ha redefinido la historia del tenis moderno**, monopolizando la mayoría de los Grand Slams desde comienzos de los 2000, y la generación de 1990 tuvo que luchar contra ello.  
 La exploración de datos permitió **identificar tendencias de rendimiento, evolución por año y dominio por superficie**, demostrando el valor del análisis exploratorio en el deporte como herramienta para comprender patrones competitivos y desempeño histórico.
-
----
-
-## 📂 Estructura del proyecto
-```
-eda-tenis/
-│
-├── data/                     # Archivos de datos (datasets CSV, imágenes, etc.)
-│   ├── atp_matches.csv
-│   ├── players.csv
-│   └── gs.jpg
-│
-├── notebooks/                # Jupyter Notebooks con el desarrollo del análisis
-│   ├── 01_exploracion.ipynb
-│   ├── 02_limpieza.ipynb
-│   └── 03_visualizaciones.ipynb
-│
-├── src/                      # Scripts de Python reutilizables (funciones auxiliares)
-│   ├── limpieza.py
-│   ├── analisis.py
-│   └── visualizaciones.py
-│
-├── outputs/                  # Gráficos, tablas y resultados generados
-│   └── resumen_final.png
-│
-├── README.md                 # Descripción general del proyecto
-└── requirements.txt          # Dependencias del entorno de Python
-```
 
 ---
 
