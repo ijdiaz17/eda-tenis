@@ -22,25 +22,22 @@ El objetivo es **identificar patrones de rendimiento, dominio por superficie y e
 eda-tenis/
 │
 ├── data/                     # Archivos de datos (datasets CSV, imágenes, etc.)
-│   ├── atp_matches.csv
-│   ├── players.csv
+│   ├── atp_matches_till_2022.csv
+│   ├── atp_players_till_2022.csv
+│   ├── atp_tennis.csv
 │   └── gs.jpg
 │
-├── notebooks/                # Jupyter Notebooks con el desarrollo del análisis
-│   ├── 01_exploracion.ipynb
-│   ├── 02_limpieza.ipynb
-│   └── 03_visualizaciones.ipynb
+├── notebooks/                # Jupyter Notebook con código y pruebas
+│   ├── 1_NOTEBOOKS.ipynb
 │
-├── src/                      # Scripts de Python reutilizables (funciones auxiliares)
-│   ├── limpieza.py
-│   ├── analisis.py
-│   └── visualizaciones.py
+├── presentacion/                  
+│   └── EDA GENERACIÓN 1990.pdf
 │
-├── outputs/                  # Gráficos, tablas y resultados generados
-│   └── resumen_final.png
-│
+├── gitignore
+├── LICENSE
+├── MEMORIA_EDA_TENIS.ipynb   # Jupyter Notebooks con el desarrollo del análisis
 ├── README.md                 # Descripción general del proyecto
-└── requirements.txt          # Dependencias del entorno de Python
+
 ```
 
 ---
